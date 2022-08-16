@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="0dp"
+    android:orientation="vertical"
+    android:scrollbarSize="4dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:text="@string/signuptitle"
+        android:textColor="#100202"
+        android:textSize="40sp"
+        tools:ignore="TextViewEdits" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/welcome"
+        android:textColor="#DA680F98"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="185dp"
+            android:layout_height="48dp"
+            android:layout_margin="5dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="2dp"
+            android:ellipsize="start"
+            android:ems="10"
+            android:inputType="text"
+            android:scrollbarSize="2dp"
+            android:text="@string/firstname"
+            android:textColor="#575E5D"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteY="162dp" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text="@string/lastname"
+            android:textColor="#575E5D"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteY="244dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text="@string/phonenumber"
+            android:textColor="#575E5D"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="LabelFor,MissingConstraints"
+            tools:layout_editor_absoluteY="315dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text="@string/creatingpassword"
+            android:textColor="#575E5D"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+            tools:ignore="LabelFor,MissingConstraints"
+            tools:layout_editor_absoluteY="162dp" />
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="1dp"
+        android:text="@string/birthday"
+        android:textColor="#DA680F98"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_margin="3dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="110dp"
+            android:layout_height="59dp"
+            android:layout_margin="4dp"
+            android:layout_marginStart="1dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="number"
+            android:padding="4dp"
+            android:text="@string/day"
+            android:textColor="#030C0B"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="LabelFor,MissingConstraints"
+            tools:layout_editor_absoluteY="448dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="121dp"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2dp"
+            android:text="@string/month"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:ignore="LabelFor,MissingConstraints"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="448dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName9"
+            android:layout_width="132dp"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="number"
+            android:padding="4dp"
+            android:text="@string/year"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="LabelFor,MissingConstraints"
+            tools:layout_editor_absoluteY="444dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="1dp"
+        android:text="@string/type"
+        android:textColor="#DA680F98"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="207dp"
+            android:layout_height="55dp"
+            android:layout_marginVertical="0dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/typemale"
+            android:textColor="#100202"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="558dp" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="182dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="4dp"
+            android:text="@string/typefemale"
+            android:textColor="#100202"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="558dp" />
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:id="@+id/btn_signup"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#DA680F98"
+        android:insetBottom="6dp"
+        android:text="@string/button2"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

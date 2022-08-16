@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.khaledmohamed.am_clinics">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Amclinics"
+        tools:targetApi="31">
+        <activity
+            android:name=".manaractivity"
+            android:exported="false" />
+        <activity
+            android:name=".atallahsecond"
+            android:exported="false" />
+        <activity
+            android:name=".atalahactivity1"
+            android:exported="false" />
+        <activity
+            android:name=".khaledsecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".khaledActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmationActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".visaActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".paymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".amal1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thirdActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".doctorActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".secActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".secondActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".secondactivitryActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".logoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
