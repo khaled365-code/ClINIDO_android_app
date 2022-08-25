@@ -8,7 +8,7 @@
     android:layout_marginStart="0dp"
     android:orientation="vertical"
     android:scrollbarSize="4dp"
-    tools:context=".MainActivity">
+    tools:context=".Signup_Activity">
 
 
     <TextView

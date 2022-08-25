@@ -7,7 +7,13 @@
         <entry key="..\:/hello-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2465" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_atalahactivity1.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_atallahsecond.xml" value="0.2296195652173913" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_cash_or_visa.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_confirm_home_visit.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_confirm_visa_inf.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_confirmation2.xml" value="0.2296195652173913" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_confirmhomevisit.xml" value="0.25407608695652173" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_doctor_or_nurse.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_homevisit.xml" value="0.25407608695652173" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_khaled1.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_khaledsecond.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_login.xml" value="0.2296195652173913" />
@@ -15,7 +21,12 @@
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_manaractivity.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_payment2.xml" value="0.2296195652173913" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_payment_for_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_payment_successfully.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_paymentforcall.xml" value="0.25407608695652173" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_recycler_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_select_service.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_verification.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_visa2.xml" value="0.25416666666666665" />
       </map>

@@ -4,19 +4,19 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.khaledmohamed.am_clinics.databinding.ActivityVerificationBinding
+import com.khaledmohamed.am_clinics.databinding.ActivityCodeVerificationBinding
 
-class VerificationActivity : AppCompatActivity() {
-    lateinit var binding:ActivityVerificationBinding
+class Verification_code_Activity : AppCompatActivity() {
+    lateinit var binding:ActivityCodeVerificationBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=ActivityVerificationBinding.inflate(layoutInflater)
+        binding=ActivityCodeVerificationBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.btnContinue.setOnClickListener {
            if(!binding.verifiCodesent.text.isNullOrEmpty())
            {
-               var intent = Intent(this, khaledActivity1::class.java)
+               var intent = Intent(this, select_service_Activity::class.java)
                Toast.makeText(this, "correct code", Toast.LENGTH_LONG).show()
                startActivity(intent)
 

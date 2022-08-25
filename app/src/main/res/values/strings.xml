@@ -68,6 +68,16 @@
     <string name="draddress">Dr address:</string>
     <string name="confirmreservation">Confirm your reservation</string>
     <string name="patientname">Patient Name:</string>
+    <string name="servicetype">Service type</string>
+    <string name="phonecall">Phone call</string>
+    <string name="selectservice">Select service type</string>
+    <string name="doctorvisit">Doctor Home Visit</string>
+    <string name="nursevisit">Nurse Home Visit</string>
+    <string name="searchvisit">Search by service </string>
+    <string name="homevisit_title">Home Visit </string>
+    <string name="patient_num">Patient Number </string>
+    <string name="patient_address">Address:</string>
+
 
 
 

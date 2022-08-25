@@ -3,8 +3,6 @@ package com.khaledmohamed.am_clinics
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
 import android.widget.Toast
 import com.khaledmohamed.am_clinics.databinding.ActivityLoginBinding
 
@@ -19,7 +17,7 @@ class LoginActivity : AppCompatActivity() {
         binding.btnLogin.setOnClickListener{
          if(!binding.edtUsername.text.isNullOrEmpty() && !binding.edtPassword.text.isNullOrEmpty())
          {
-             var intent = Intent(this, khaledActivity1::class.java)
+             var intent = Intent(this, select_service_Activity::class.java)
              intent.putExtra("username",binding.edtUsername.text.toString())
              startActivity(intent)
              Toast.makeText(this, "you logged successfully", Toast.LENGTH_LONG).show()
@@ -32,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
          }
         }
         binding.btnCreate.setOnClickListener {
-            var intent=Intent(this,MainActivity::class.java)
+            var intent=Intent(this,Signup_Activity::class.java)
             startActivity(intent)
             Toast.makeText(this,"fill all following required information",Toast.LENGTH_LONG).show()
         }

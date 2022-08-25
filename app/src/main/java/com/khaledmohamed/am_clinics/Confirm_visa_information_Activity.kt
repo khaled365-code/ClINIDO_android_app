@@ -6,12 +6,12 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 
-class visaActivity2 : AppCompatActivity() {
+class Confirm_visa_information_Activity : AppCompatActivity() {
 
     lateinit var visaconfirm_btn: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_visa2)
+        setContentView(R.layout.activity_confirm_visa_inf)
 
         visaconfirm_btn=findViewById(R.id.visaconfirm_btn)
 

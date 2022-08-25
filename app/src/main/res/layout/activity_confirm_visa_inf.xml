@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#FFFEFF"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Signup_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,6 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tv_First_Name"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <EditText
@@ -42,7 +43,8 @@
             style="@style/customStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Last Name" />
+            android:text="Last Name"
+            android:textColor="#000000" />
 
         <EditText
             style="@style/customStyle"
@@ -64,13 +66,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
-            android:text="@string/aa" />
+            android:text="@string/aa"
+            android:textColor="#000000" />
 
         <EditText
             style="@style/customStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="6dp"
+            android:layout_marginTop="5dp"
             android:inputType="text" />
 
     </LinearLayout>
@@ -86,7 +89,8 @@
             style="@style/customStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tv_code" />
+            android:text="@string/tv_code"
+            android:textColor="#000000" />
 
         <EditText
             style="@style/customStyle"
@@ -107,7 +111,8 @@
             style="@style/customStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tv_card_number" />
+            android:text="@string/tv_card_number"
+            android:textColor="#000000" />
 
         <EditText
             style="@style/customStyle"
@@ -127,7 +132,8 @@
             style="@style/customStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tv_date" />
+            android:text="@string/tv_date"
+            android:textColor="#000000" />
 
         <EditText
             style="@style/customStyle"

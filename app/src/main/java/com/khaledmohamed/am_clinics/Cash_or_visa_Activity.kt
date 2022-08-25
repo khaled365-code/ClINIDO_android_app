@@ -6,13 +6,13 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 
-class paymentActivity : AppCompatActivity() {
+class Cash_or_visa_Activity : AppCompatActivity() {
 
     lateinit var chcash_btn:Button
     lateinit var chvisa_btn:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_payment2)
+        setContentView(R.layout.activity_cash_or_visa)
 
         chcash_btn=findViewById(R.id.chcash_btn)
         chvisa_btn=findViewById(R.id.chvisa_btn)
@@ -27,7 +27,7 @@ class paymentActivity : AppCompatActivity() {
 
         chvisa_btn.setOnClickListener{
 
-            var intent= Intent(this,visaActivity2::class.java)
+            var intent= Intent(this,Confirm_visa_information_Activity::class.java)
             startActivity(intent)
             Toast.makeText(this,"please fill your visa information",Toast.LENGTH_LONG).show()
 
