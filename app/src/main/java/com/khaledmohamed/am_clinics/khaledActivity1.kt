@@ -5,20 +5,33 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import com.khaledmohamed.am_clinics.databinding.ActivityKhaled1Binding
 
 class khaledActivity1 : AppCompatActivity() {
-    lateinit var btn_supmit:Button
+    lateinit var binding:ActivityKhaled1Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_khaled1)
-        btn_supmit=findViewById(R.id.btn_supmit)
-        btn_supmit.setOnClickListener {
-            var intent=Intent(this,khaledsecondActivity::class.java)
-            startActivity(intent)
-            Toast.makeText(this,"your data submitted successfully",Toast.LENGTH_LONG).show()
+        binding=ActivityKhaled1Binding.inflate(layoutInflater)
+        setContentView(binding.root)
 
+       binding.btnSupmit.setOnClickListener{
+           if(!binding.specialityField.text.isNullOrEmpty()
+               &&!binding.cityField.text.isNullOrEmpty()
+               &&!binding.feesField.text.isNullOrEmpty())
+           {
+               var intent = Intent(this, khaledsecondActivity::class.java)
+               startActivity(intent)
+               Toast.makeText(this, "your data submitted successfully", Toast.LENGTH_LONG).show()
 
+           }
+           else
+           {
+               Toast.makeText(this, "All fields are required!", Toast.LENGTH_LONG).show()
+
+           }
 
         }
+
+
     }
 }

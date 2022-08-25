@@ -8,11 +8,11 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/aaa"
-        android:padding="10dp"
+        android:layout_width="382dp"
+        android:layout_height="410dp"
         android:layout_margin="10dp"
+        android:padding="10dp"
+        android:src="@drawable/aaa"
 
 
         ></ImageView>
@@ -49,11 +49,12 @@
 
 
         <Button
+            android:id="@+id/chcash_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="60dp"
 
+            android:layout_marginLeft="60dp"
             android:layout_marginRight="100dp"
             android:backgroundTint="#DA680F98"
             android:gravity="center_horizontal"
@@ -63,6 +64,7 @@
             android:textStyle="bold"></Button>
 
         <Button
+            android:id="@+id/chvisa_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"

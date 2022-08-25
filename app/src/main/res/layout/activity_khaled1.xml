@@ -6,10 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".khaledActivity1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/health2"
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
         android:orientation="vertical">
 
 
@@ -18,21 +25,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|left"
-            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:gravity="top|left"
             android:text="@string/advertisment"
-            android:textColor="#090202"
+            android:textColor="#DA680F98"
             android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
             android:text="@string/advertisment2"
-            android:textColor="#DA060209"
-            android:textSize="18sp"
+            android:textColor="#090202"
+            android:textSize="20sp"
             android:textStyle="bold|italic"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -40,191 +48,74 @@
 
 
     <LinearLayout
-        android:layout_width="402dp"
-        android:layout_height="100dp"
-        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginRight="70dp"
-            android:text="@string/speciality"
-            android:textColor="#DA680F98"
-            android:textSize="18sp"
-            android:textStyle="bold|italic" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="200dp"
+        <ImageView
+            android:layout_width="120dp"
             android:layout_height="60dp"
-            android:layout_margin="40dp"
-            android:layout_marginStart="91dp"
-            android:layout_marginTop="100dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/specialityname"
-            android:textColor="#E2433D3D" />
+            android:src="@drawable/appointment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/appointment"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="402dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="30dp"
         android:orientation="horizontal">
 
 
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:src="@drawable/calling" />
+
         <TextView
-            android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginLeft="10dp"
-            android:padding="2dp"
-            android:text="@string/city"
-            android:textColor="#DA680F98"
-            android:textSize="18sp"
-            android:textStyle="bold|italic" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName4"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="91dp"
-            android:layout_marginTop="10dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/cityname"
-            android:textColor="#E2433D3D" />
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/appointment"
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
 
     <LinearLayout
-        android:layout_width="402dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="3dp"
+        android:layout_marginTop="30dp"
         android:orientation="horizontal">
 
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginRight="10dp"
-            android:text="@string/fees"
-            android:textColor="#DA680F98"
-            android:textSize="18sp"
-            android:textStyle="bold|italic" />
-
-        <EditText
-            android:id="@+id/editTextNumber"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="7dp"
-            android:inputType="number"
-            android:text="@string/price"
-            android:textColor="#E2433D3D" />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="402dp"
-        android:layout_height="91dp"
-        android:layout_margin="2dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="193dp"
-            android:layout_height="35dp"
-            android:layout_margin="18dp"
-            android:text="@string/surgeries"
-            android:textColor="#DA680F98"
-            android:textSize="18sp"
-            android:textStyle="bold|italic" />
-
-        <CheckBox
-            android:id="@+id/checkBox3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="30dp"
-            android:padding="2dp"
-            android:text="@string/check1"
-            android:textColor="#E2000000" />
-
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="0dp"
-            android:padding="2dp"
-            android:text="@string/check2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="402dp"
-        android:layout_height="79dp"
-        android:layout_margin="2dp"
-        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:src="@drawable/home" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="14dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/diseases"
-            android:textColor="#DA680F98"
-            android:textSize="18sp"
-            android:textStyle="bold|italic" />
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="30dp"
-            android:padding="2dp"
-            android:text="@string/check1" />
-
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:padding="2dp"
-            android:text="@string/check2" />
-
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/appointment"
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
     </LinearLayout>
-
-
-    <Button
-        android:id="@+id/btn_supmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:layout_marginTop="50dp"
-        android:backgroundTint="#DA680F98"
-        android:gravity="center_horizontal"
-        android:text="@string/button20" />
-
 
 
 </LinearLayout>

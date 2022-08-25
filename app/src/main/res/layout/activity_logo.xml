@@ -9,7 +9,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="336dp"
+        android:layout_height="382dp"
         app:srcCompat="@drawable/khaledd" />
 
 
@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="56dp"
         android:gravity="center_horizontal"
         android:text="@string/title1"
@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="-40dp"
+        android:layout_marginTop="-50dp"
         android:inputType="text"
         android:text="@string/title2"
         android:textColor="#130303"
@@ -39,25 +39,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="@string/title3"
         android:textColor="#DA680F98"
         android:textSize="25sp" />
 
-    <Button
-        android:id="@+id/stbutton"
-        android:layout_width="wrap_content"
+    <ProgressBar
+        android:id="@+id/progressBar_logoid"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="398dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="4dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="#DA680F98"
-        android:gravity="center_horizontal"
-        android:text="@string/button1" />
-
-
-
-
+        android:indeterminate="true" />
 
 
 </LinearLayout>

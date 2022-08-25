@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/hello-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2465" />
+        <entry key="..\:/hello-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2465" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_atalahactivity1.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_atallahsecond.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_confirmation2.xml" value="0.2296195652173913" />
@@ -10,9 +12,10 @@
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_khaledsecond.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_login.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_logo.xml" value="0.264" />
-        <entry key="..\:/hello-master/app/src/main/res/layout/activity_main.xml" value="0.2296195652173913" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_manaractivity.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_payment2.xml" value="0.2296195652173913" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_paymentforcall.xml" value="0.25407608695652173" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_verification.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_visa2.xml" value="0.25416666666666665" />
       </map>

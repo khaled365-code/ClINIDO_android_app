@@ -3,9 +3,9 @@ package com.khaledmohamed.am_clinics
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class atalahactivity1 : AppCompatActivity() {
+class Paymentforcall : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_atalahactivity1)
+        setContentView(R.layout.activity_paymentforcall)
     }
 }

@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Amclinics"
         tools:targetApi="31">
         <activity
+            android:name=".Paymentforcall"
+            android:exported="false" />
+        <activity
             android:name=".manaractivity"
             android:exported="false" />
         <activity

@@ -6,23 +6,32 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.khaledmohamed.am_clinics.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
-    lateinit var btn_login:Button
-    lateinit var btn_create:Button
-    lateinit var edt_name: EditText
+
+    lateinit var binding:ActivityLoginBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
-        btn_login=findViewById(R.id.btn_login)
-        btn_create=findViewById(R.id.btn_create)
-        btn_login.setOnClickListener {
-            var intent=Intent(this,khaledActivity1::class.java)
-            startActivity(intent)
-            Toast.makeText(this,"you logged successfully",Toast.LENGTH_LONG).show()
+        binding=ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.btnLogin.setOnClickListener{
+         if(!binding.edtUsername.text.isNullOrEmpty() && !binding.edtPassword.text.isNullOrEmpty())
+         {
+             var intent = Intent(this, khaledActivity1::class.java)
+             intent.putExtra("username",binding.edtUsername.text.toString())
+             startActivity(intent)
+             Toast.makeText(this, "you logged successfully", Toast.LENGTH_LONG).show()
+             finish()
+
+         }else
+         {
+             Toast.makeText(this, "you should enter your name and password", Toast.LENGTH_LONG).show()
+
+         }
         }
-        btn_create.setOnClickListener {
+        binding.btnCreate.setOnClickListener {
             var intent=Intent(this,MainActivity::class.java)
             startActivity(intent)
             Toast.makeText(this,"fill all following required information",Toast.LENGTH_LONG).show()

@@ -1,21 +1,30 @@
 package com.khaledmohamed.am_clinics
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.khaledmohamed.am_clinics.databinding.ActivityVerificationBinding
 
 class VerificationActivity : AppCompatActivity() {
-    lateinit var btn_continue:Button
+    lateinit var binding:ActivityVerificationBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_verification)
-        btn_continue=findViewById(R.id.btn_continue)
-        btn_continue.setOnClickListener {
-            var intent=Intent(this,khaledActivity1::class.java)
-            startActivity(intent)
-            Toast.makeText(this,"correct code",Toast.LENGTH_LONG).show()
+        binding=ActivityVerificationBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.btnContinue.setOnClickListener {
+           if(!binding.verifiCodesent.text.isNullOrEmpty())
+           {
+               var intent = Intent(this, khaledActivity1::class.java)
+               Toast.makeText(this, "correct code", Toast.LENGTH_LONG).show()
+               startActivity(intent)
+
+           }
+            else
+           {
+               Toast.makeText(this, "You should enter the code sent to your mobile", Toast.LENGTH_LONG).show()
+           }
         }
     }
 }
