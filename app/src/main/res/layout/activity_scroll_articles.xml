@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Scroll_articles_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="...latest articles:"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                app:srcCompat="@drawable/med" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technique (Femto Lasik)"
+                android:textColor="#DA4C1868"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="211dp"
+                app:srcCompat="@drawable/ll" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:text="Why does the heart rate increase when sleeping?"
+                android:textColor="#DA4C1868"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
+                android:src="@drawable/nn" />
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The difference between indigestion and Irritable Bowel Syndrome"
+                android:textColor="#DA4C1868"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                app:srcCompat="@drawable/hhh" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:text="Telesurgery: From science fiction to scientific and practical fact"
+                android:textColor="#DA4C1868"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:src="@drawable/medc" />
+
+            <TextView
+                android:id="@+id/textview6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The use of herbs in the treatment of medicines"
+                android:textColor="#DA4C1868"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kk" />
+
+            <TextView
+                android:id="@+id/textview7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The role of exercise in improving heart rate"
+                android:textColor="#DA4C1868"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

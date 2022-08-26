@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article1_Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="#BA8C7D"
+                android:text="What is Femto LASIK?"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Femtosecond-assisted (Femto) laser in-situ keratomileusis (LASIK) is a type of laser eye surgery. This method, along with other refractory surgeries, is used to reshape the cornea of the eye in an effort to resolve vision problems.  Keratomileusis, or the sculpting of the cornea as a way to correct refractive errors, was first developed in 1948Trusted Source using a small surgical tool with an oscillating blade called the microkeratome.  This first method, using a mechanical tool, was known as anterior lamellar keratoplasty (ALK). In the late 1980s and early 1990s, technology for this procedure improved.  The Femto laser, developed in the early 1990s, allowed surgeons to create the corneal flap used in LASIK with a laser rather than a mechanical cutting tool. After surgery, the flap can be replaced without sutures, allowing for quicker healing."
+                android:textColor="#101010"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BA8C7D"
+                android:text="How much does Femto LASIK cost?"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the drawbacks of refractive surgery is that it is seen as an elective procedure, and therefore not covered under most vision insurance plans.  You may, however, be able to use a health savings account (HSA) or flexible savings account (FSA) to pay for all or a portion of the procedure. Some insurance plans and LASIK centers may also offer discounts depending on your employer or insurance provider.  On average, LASIK surgery costs about $1,000 to $3,000 per eye. Femto LASIK usually costs more, because of the higher-end technology used over traditional LASIK. Other factors that could influence your cost are:  location how much your vision needs to be corrected the skill of the surgeon Beware of “bargain” deals, as these usually have hidden costs, use inexperienced surgeons, or rely on outdated technologies. Be sure to ask your surgeon what costs are included during your initial consultation. Typical packages may include:  initial examination and testing all costs associated with the procedure itself post-procedure appointments and medications follow-up procedures as required"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BA8C7D"
+                android:text="How does Femto LASIK work?"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To understand Femto LASIK, you have to understand how vision problems develop and how refractive surgery helps. Refractive errors occur when the eye has trouble bending and focusing light. Types of refractive errors include:  Myopia: Trouble seeing far away, sometimes called nearsightedness. This condition occurs when your cornea has a steeper shape, so refractive surgery reduces the curvature of the cornea to correct it. Hyperopia: Trouble seeing things that are close, sometimes called farsightedness. In this condition, the cornea is too flat, and refractive surgery is used to increase the curvature of the cornea. Astigmatism: Imperfections in the shape of the cornea. This condition is caused by irregular curving of the cornea, and surgery can be used to reshape the irregular areas. Presbyopia: Loss of elasticity in the eye due to aging. This is a condition that occurs with age, and happens with the lens inside the eye becomes more stiff and loses flexibility. While refractive surgery can help correct this problem in some cases, it can also prevent you from being a candidate for refractive surgery. Not all of these problems can be corrected by refractive surgery. Refractive surgery only works to correct problems that can be resolved by reshaping the cornea.  When refractive surgeries are used to correct these problems, a cut is made on the surface of the eye, and a laser is used to reshape the cornea."
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BA8C7D"
+                android:text="Procedure for Femto LASIK"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On the day of surgery, the following steps will take place:  You will be brought to a procedure room and placed in a reclining chair. You will lie on your back under the laser system and a computer screen. Numbing drops will be placed into your eyes. A machine called an eye speculum will be used to keep your eyelids open during the procedure. A suction ring is then centered over the pupil and suction is applied. A glass lens to hold the globe of the eye steady and flatten the cornea. Once the laser has fixated on the surgical area, your surgeon administers the first treatment. The laser pulses to create a flap in the surface of the cornea and suction is released. Once the flap is peeled back, a precise excimer laser uses ultraviolet rays to reshape the cornea as required to resolve your condition. You may hear a ticking sound or smell something burning during this part of the procedure. In Femto LASIK, the flap is replaced once reshaping is complete The flap will heal in place without sutures. The entire procedure should take no more than 30 minutes for each eye. Be sure to have someone with you to drive you home after the procedure."
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

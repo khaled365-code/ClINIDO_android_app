@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article5_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="#BA8C7D"
+                android:text="Herbal medicines"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#101010"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:text="Herbal medicines are those with active ingredients made from plant parts, such as leaves, roots or flowers. But being doesn't necessarily mean they're safe for you to take.
+
+Just like conventional medicines, herbal medicines will have an effect on the body, and can be potentially harmful if not used correctly.
+
+They should therefore be used with the same care and respect as conventional medicines.
+
+If you're consulting your doctor or pharmacist about health matters, or are about to undergo surgery, always tell them about any herbal medicines you're taking."/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BA8C7D"
+                android:text="Potential issues with herbal medicines"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#101010"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:text="If you're taking, or plan to take, any herbal medicines, be aware of the following:
+
+They may cause problems if you're taking other medicines. They could result in reduced or enhanced effects of the medicine, including potential side effects.
+You may experience a bad reaction or side effects after taking a herbal medicine.
+Not all herbal medicines are regulated. Remedies specially prepared for individuals don't need a licence, and those manufactured outside the UK may not be subject to regulation.
+Evidence for the effectiveness of herbal medicines is generally very limited. Although some people find them helpful, in many cases their use tends to be based on traditional use rather than scientific research.
+Certain groups of people should be particularly wary of taking herbal medicines."/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BA8C7D"
+                android:text="Who should avoid herbal medicines?"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#101010"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:text="Taking a herbal medicine may not be suitable for:
+
+            people taking other medicines
+            people with serious health conditions, such as liver or kidney disease
+        people who are going to have surgery
+        pregnant or breastfeeding women
+        the elderly
+        children – as with all medicines, herbal medicines should be kept out of the sight and reach of children
+        Speak to your doctor or pharmacist for advice before trying a herbal medicine if you fall into one of these groups."/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

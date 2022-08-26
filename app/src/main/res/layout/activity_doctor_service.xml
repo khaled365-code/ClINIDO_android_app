@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchView"
+        android:divider="#5D4588"
+        android:dividerHeight="2dp" />
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:iconifiedByDefault="false"
+
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+
+        android:queryHint="Search by service"
+        android:background="@drawable/search_view"
+        android:queryBackground="@android:color/transparent"
+        android:clickable="true"
+        style="@style/Widget.AppCompat.ListView"/>
+
+
+</RelativeLayout>

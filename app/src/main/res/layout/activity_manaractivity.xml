@@ -17,23 +17,34 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="92dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
+        android:rotationX="-4"
         android:text="@string/done"
-        android:textColor="#DA680F98"
-        android:textSize="35sp" />
+        android:textColor="#DA4C1868"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
 
     <Button
 
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="#DA680F98"
+        android:layout_gravity="end"
+        android:backgroundTint="#DA4C1868"
         android:text="@string/vv"
-        android:textSize="34sp" />
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#DA4C1868"
+        android:text="latest articles"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
 
 
 </LinearLayout>
-

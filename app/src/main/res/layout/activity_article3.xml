@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article3_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BA8C7D"
+                android:text="HAn introduction to IBS and indigestion"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you suffer from IBS you will be at greater risk of experiencing indigestion and other symptoms associated with the condition, such as acid reflux.  Periodic bouts of indigestion, especially after a few over-indulging meals, is normal. However, when symptoms start occurring on a more frequent basis, we should be looking for a cause. One cause of indigestion to consider is IBS."
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BA8C7D"
+                android:text="Why does IBS cause indigestion?"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Indigestion basically means ‘bad digestion’ and symptoms arise from the upper end of the digestive tract.
+
+The link between IBS and indigestion is still not clear. Both symptoms share a number symptoms including flatulence, bloating and pain or discomfort. But the common cause in both conditions for these symptoms is still not clearly understood.
+
+A deficiency or malfunction of digestive enzymes may have a role. Decreased stomach acid (known as hypochlorhydria) is a commonly misdiagnosed condition. As people age, production of stomach acid naturally declines. Contrary to logic, this decrease in stomach acid can actually lead to an increase in acid reflux as it affects the digestive process by interfering with the normal breakdown of food in the stomach.
+
+It is likely an imbalance in the stomach can give rise to IBS symptoms. If food hasn’t been digested properly, this will most likely aggravate an irritable gut.
+
+Interestingly stress has links with both indigestion (affects stomach acid production) and IBS (brain-gut axis), so may also be having a part to play.
+
+If the first part of the digestive tract isn’t functioning correctly, it will have a natural impact on the bits that follow. Whether this is a causal effect (sending partially undigested food through to the other parts of the gut) or that both parts result from a common functional problem, is yet to be completely understood.
+
+Nevertheless, psychological factors cannot be ruled out as there is a strong gut-brain relationship. Stress, anxiety, panic attacks and depression all have links with both IBS and indigestion.
+
+In extreme cases, acid reflux may develop into Gastroesophageal Reflux Disease (GORD or GERD). This is a chronic condition sometimes also known as functional dyspepsia, which requires a visit to your doctor in order to have the diagnosis confirmed."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

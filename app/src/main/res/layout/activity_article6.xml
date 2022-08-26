@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article6_Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BA8C7D"
+                android:text="How Exercise Helps the Heart"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#101010"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:text="Exercise has many positive effects on heart health. A regular exercise routine can help:
+
+Lower blood pressure
+Lessen risk of developing diabetes
+Maintain healthy body weight
+Reduce inflammation throughout the body
+“One of the key benefits of exercise is that it helps to control or modify many of the risk factors for heart disease,” says Dr. Kerry Stewart, director of Clinical and Research Exercise Physiology at Johns Hopkins Bayview. “Smoking is another big factor for heart disease, and if you exercise regularly you’re unlikely to take on a bad habit like smoking, or quit if you already are a smoker.”
+
+Additional benefits of exercise:
+
+Improves the muscles’ ability to pull oxygen out of the blood, reducing the need for the heart to pump more blood to the muscles
+Reduces stress hormones that can put an extra burden on the heart
+Works like a beta blocker to slow the heart rate and lower blood pressure
+Increases high-density lipoprotein (HDL) or “good” cholesterol and helps control triglycerides
+A number of studies have also shown that people who exercise regularly are less likely to suffer a sudden heart attack or other life-threatening cardiac event.
+
+While exercise has benefits in and of itself, the best way to prevent heart disease is to combine exercise with a healthy diet. Exercise alone can help with weight loss over a long period of time. But a short-term approach is to reduce the number of calories you take in through diet, while increasing the calories you use through exercise."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BA8C7D"
+                android:text="Ideal exercise for the heart"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#101010"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:text="The best exercise has a positive effect on the heart and improves the skeletmuscular system.
+
+The American Heart Association and the American College of Sports Medicine both recommend combining aerobic exercise (jogging, swimming, biking) with resistance training (moderate weightlifting). Together, these two categories of exercise produce the greatest benefit for preventing and managing heart disease."/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="#BA8C7D"
+                android:text="Exercise and pregnancy"
+                android:textColor="#DA4C1868"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#101010"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:text="If you’re having a healthy pregnancy, and you exercised regularly before you were pregnant, it’s beneficial to keep up a moderate routine. This regimen can include walking, swimming or bike riding. You’ll continue to receive the same cardiovascular benefits.
+
+If you’re pregnant and everyday exercise has not been part of your life, you should probably stick with a milder exercise. In both instances, it makes sense to seek advice from your physician."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

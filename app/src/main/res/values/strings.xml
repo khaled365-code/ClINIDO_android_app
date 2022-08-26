@@ -77,9 +77,7 @@
     <string name="homevisit_title">Home Visit </string>
     <string name="patient_num">Patient Number </string>
     <string name="patient_address">Address:</string>
-
-
-
+    <string name="text_tv">please tell us about your feedback</string>
 
 
 </resources>

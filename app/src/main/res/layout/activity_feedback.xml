@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hh"
+    android:orientation="vertical"
+    tools:context=".feedback_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:text="@string/text_tv"
+        android:textColor="@color/purple_500"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:defaultFocusHighlightEnabled="true"
+        android:hint="your feedback"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="121dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom|fill_vertical|end"
+        android:text="next"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>
