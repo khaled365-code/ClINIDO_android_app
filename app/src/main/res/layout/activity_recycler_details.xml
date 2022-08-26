@@ -21,7 +21,7 @@
 
             android:textColor="#000000"
             android:textSize="24sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="italic" />
 
         <EditText
             android:layout_width="match_parent"
@@ -44,8 +44,7 @@
             android:text="@string/draddress"
 
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:textStyle="bold|italic" />
+            android:textSize="24sp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -68,8 +67,7 @@
             android:layout_margin="7dp"
             android:text="@string/phonenumber"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:textStyle="bold|italic" />
+            android:textSize="24sp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -92,8 +90,7 @@
             android:layout_margin="8dp"
             android:text="@string/bookingdate"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:textStyle="bold|italic" />
+            android:textSize="24sp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -116,8 +113,7 @@
             android:layout_margin="8dp"
             android:text="@string/waitingtime"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:textStyle="bold|italic" />
+            android:textSize="24sp" />
 
         <EditText
             android:layout_width="match_parent"

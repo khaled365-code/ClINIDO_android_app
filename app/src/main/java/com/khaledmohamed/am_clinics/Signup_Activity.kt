@@ -15,8 +15,7 @@ class Signup_Activity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btnSignup.setOnClickListener {
             if(!binding.regfirstName.text.isNullOrEmpty()&&
-                !binding.regsurName.text.isNullOrEmpty()
-                && !binding.regphoneNum.text.isNullOrEmpty()
+                !binding.regphoneNum.text.isNullOrEmpty()
                 &&!binding.regsettPass.text.isNullOrEmpty()
                 &&!binding.regconfirmPass.text.isNullOrEmpty())
             {

@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Amclinics"
         tools:targetApi="31">
         <activity
+            android:name=".Recyclerview_Activity"
+            android:exported="false" />
+        <activity
             android:name=".DoctorService"
             android:exported="false" />
         <activity
@@ -50,6 +53,30 @@
             android:name=".City_Activity"
             android:exported="false" />
         <activity
+            android:name=".Article6_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Article5_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Article4_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Article3_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Article2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Article1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Scroll_articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".feedback_Activity"
+            android:exported="false" />
+        <activity
             android:name=".SpecialityActivity"
             android:exported="false" />
         <activity
@@ -62,7 +89,7 @@
             android:name=".Payment_for_call_Activity"
             android:exported="false" />
         <activity
-            android:name=".manaractivity"
+            android:name=".Exit_Activity"
             android:exported="false" />
         <activity
             android:name=".Recycler_details"

@@ -3,31 +3,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".DoctorService">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Select Service"
+        android:textColor="#000000"
+        android:textSize="25sp" />
 
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/searchView"
+        android:layout_marginTop="5dp"
         android:divider="#5D4588"
         android:dividerHeight="2dp" />
+
     <SearchView
         android:id="@+id/searchView"
+        style="@style/Widget.AppCompat.ListView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:iconifiedByDefault="false"
 
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="70dp"
         android:layout_marginBottom="16dp"
 
-        android:queryHint="Search by service"
         android:background="@drawable/search_view"
-        android:queryBackground="@android:color/transparent"
         android:clickable="true"
-        style="@style/Widget.AppCompat.ListView"/>
+        android:iconifiedByDefault="false"
+        android:queryBackground="@android:color/transparent"
+        android:queryHint="Search by service" />
 
 
 </RelativeLayout>

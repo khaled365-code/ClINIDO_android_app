@@ -5,7 +5,7 @@
     <string name="title3">in One Place</string>
     <string name="signuptitle">Sign Up</string>
     <string name="button1">Start</string>
-    <string name="firstname">First name</string>
+    <string name="firstname">Name</string>
     <string name="lastname">Surname</string>
     <string name="phonenumber">Mobile number:</string>
     <string name="creatingpassword">New Password</string>
@@ -25,14 +25,16 @@
     <string name="money">Do you want to pay cash or visa?</string>
     <string name="cash">Cash</string>
     <string name="visa">Visa</string>
-    <string name="tv_First_Name">First Name</string>
+    <string name="tv_First_Name">Card Holder Name</string>
     <string name="tv_Last_Name">Last_Name</string>
     <string name="tv_phone_number"> Phone number:</string>
-    <string name="tv_card_number">Card Number</string>
-    <string name="tv_code">Security code</string>
+    <string name="tv_card_number">CVV</string>
+    <string name="tv_code">CARD NUMBER</string>
     <string name="tv_date">Expiration Date</string>
     <string name="btn_confirm">confirm</string>
-    <string name="tv_process">Payment completed successfully</string>
+    <string name="tv_process">Your payment was successful</string>
+    <string name="tv_process1">Thank you for your payment.We will</string>
+    <string name="tv_process2">be in contact with more details shortlly</string>
     <string name="btn_back">back</string>
     <string name="advertisment">Need a doctor?</string>
     <string name="advertisment2">Book online or call us to help you</string>
@@ -59,7 +61,9 @@
     <string name="previous">Previous</string>
     <string name="dr_name">DR \Name:</string>
     <string name="done">successfully registerd</string>
-    <string name="vv">exit</string>
+    <string name="vv">LOG OUT</string>
+    <string name="exitmainpage">GO TO MAIN PAGE </string>
+
     <string name="confirmthepassword">confirm your password</string>
     <string name="bookingdate">Booking Date:</string>
     <string name="waitingtime">Waiting time:</string>

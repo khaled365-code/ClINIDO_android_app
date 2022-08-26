@@ -7,75 +7,114 @@
     android:orientation="vertical"
     tools:context=".Signup_Activity">
 
-    <ImageView
-        android:layout_width="382dp"
-        android:layout_height="410dp"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:src="@drawable/aaa"
-
-
-        ></ImageView>
-
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Payment method"
+        android:textColor="#DA680F98"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="405dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal">
-        android:padding="10dp"
-        android:layout_margin="10dp"
+
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/money"
-            android:gravity="center_horizontal"
-            android:textColor="@color/black"
-            android:textSize="25sp"
-            android:padding="10dp"
-            android:layout_margin="10dp"
-            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Visa"
+            android:textColor="#DA000000"
+            android:textSize="20sp" />
 
-            ></TextView>
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="270dp"
+            android:src="@drawable/visa" />
+
+
     </LinearLayout>
+
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_width="405dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
         android:orientation="horizontal">
-        android:padding="10dp"
-        android:layout_margin="10dp"
 
 
-        <Button
-            android:id="@+id/chcash_btn"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Fawry"
+            android:textColor="#DA070507"
+            android:textSize="20sp" />
 
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="100dp"
-            android:backgroundTint="#DA680F98"
-            android:gravity="center_horizontal"
-            android:padding="5dp"
-            android:text="@string/cash"
-            android:textSize="25dp"
-            android:textStyle="bold"></Button>
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="260dp"
+            android:src="@drawable/fawry" />
 
-        <Button
-            android:id="@+id/chvisa_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:backgroundTint="#DA680F98"
-            android:gravity="center_horizontal"
-            android:padding="5dp"
-            android:text="@string/visa"
-            android:textSize="25dp"
-            android:textStyle="bold"></Button>
-        android:padding="10dp"
-        android:layout_margin="10dp"
+
     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Cash"
+            android:textColor="#DA000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="260dp"
+
+            android:src="@drawable/cash" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="We inform you..."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:text="in case of choosing Fawry You will recieve a payment code to pay with. in case of you face any problem please call our customer service"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
 
 </LinearLayout>

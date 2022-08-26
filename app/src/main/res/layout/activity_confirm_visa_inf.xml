@@ -5,155 +5,156 @@
     android:id="@+id/bac"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFEFF"
+    android:background="#ECE4EC"
     android:orientation="vertical"
     tools:context=".Signup_Activity">
 
+
+    <ImageView
+        android:layout_width="361dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/visacard" />
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="405dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="15dp"
         android:layout_marginBottom="20dp"
         android:orientation="horizontal">
 
 
         <TextView
-            style="@style/customStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:text="@string/tv_First_Name"
             android:textColor="#000000"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <EditText
-            style="@style/customStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Card Holder Name"
+            android:inputType="text"
+            android:textSize="15sp" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="405dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="10dp"
         android:orientation="horizontal">
 
 
         <TextView
-            style="@style/customStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Last Name"
-            android:textColor="#000000" />
-
-        <EditText
-            style="@style/customStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
-
-
-        <TextView
-            style="@style/customStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="1dp"
-            android:text="@string/aa"
-            android:textColor="#000000" />
-
-        <EditText
-            style="@style/customStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:inputType="text" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
-
-
-        <TextView
-            style="@style/customStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:text="@string/tv_code"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
-            style="@style/customStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Card Number"
+            android:inputType="number"
+            android:textSize="15sp" />
 
     </LinearLayout>
 
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="405dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="10dp"
         android:orientation="horizontal">
 
 
         <TextView
-            style="@style/customStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tv_card_number"
-            android:textColor="#000000" />
-
-        <EditText
-            style="@style/customStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
-
-
-        <TextView
-            style="@style/customStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:text="@string/tv_date"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
-            style="@style/customStyle"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="Expiry Month"
+            android:inputType="number"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Expiry Year"
+            android:inputType="number"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/tv_card_number"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
-
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Card Security Code"
+            android:inputType="number"
+            android:textSize="15sp" />
     </LinearLayout>
 
 
     <Button
-        android:id="@+id/visaconfirm_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="3dp"
-        android:backgroundTint="#DA680F98"
-        android:padding="10dp"
-        android:text="@string/btn_confirm"
-        android:textSize="24sp" />
+        android:layout_marginStart="10dp"
+        android:backgroundTint="#9755AF"
+        android:text="Pay Now" />
+
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#DAEEEAF1"
+        android:text="Cancel"
+        android:textColor="#009688" />
 
 
 </LinearLayout>

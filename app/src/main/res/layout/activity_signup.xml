@@ -21,7 +21,6 @@
         android:textSize="40sp"
         tools:ignore="TextViewEdits" />
 
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
@@ -43,35 +42,22 @@
 
         <EditText
             android:id="@+id/regfirst_name"
-            android:layout_width="185dp"
+            android:layout_width="391dp"
             android:layout_height="48dp"
             android:layout_margin="5dp"
             android:layout_marginStart="0dp"
             android:layout_marginEnd="2dp"
             android:ellipsize="start"
             android:ems="10"
+            android:hint="@string/firstname"
             android:inputType="text"
             android:scrollbarSize="2dp"
-            android:text="@string/firstname"
-            android:textColor="#575E5D"
+            android:textColor="#000000"
             android:textSize="15sp"
             tools:layout_editor_absoluteY="162dp" />
 
 
-        <EditText
-            android:id="@+id/regsur_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="8dp"
-            android:ems="10"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:text="@string/lastname"
-            android:textColor="#575E5D"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteY="244dp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -93,7 +79,7 @@
             android:inputType="number"
             android:minHeight="48dp"
             android:padding="2dp"
-            android:text="@string/phonenumber"
+            android:hint="@string/phonenumber"
             android:textColor="#575E5D"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -122,7 +108,7 @@
             android:inputType="text"
             android:minHeight="48dp"
             android:padding="2dp"
-            android:text="@string/creatingpassword"
+            android:hint="@string/creatingpassword"
             android:textColor="#575E5D"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -151,7 +137,7 @@
             android:layout_marginEnd="8dp"
             android:inputType="text"
             android:padding="2dp"
-            android:text="@string/confirmthepassword"
+            android:hint="@string/confirmthepassword"
             android:textColor="#575E5D"
             android:textSize="15sp" />
     </LinearLayout>
