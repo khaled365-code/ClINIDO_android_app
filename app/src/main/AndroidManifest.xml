@@ -47,9 +47,6 @@
             android:name=".Scroll_articles_Activity"
             android:exported="false" />
         <activity
-            android:name=".feedback_Activity"
-            android:exported="false" />
-        <activity
             android:name=".City_Activity"
             android:exported="false" />
         <activity
@@ -74,9 +71,6 @@
             android:name=".Scroll_articles_Activity"
             android:exported="false" />
         <activity
-            android:name=".feedback_Activity"
-            android:exported="false" />
-        <activity
             android:name=".SpecialityActivity"
             android:exported="false" />
         <activity
@@ -95,12 +89,6 @@
             android:name=".Recycler_details"
             android:exported="false" />
         <activity
-            android:name=".atalahactivity1"
-            android:exported="false" />
-        <activity
-            android:name=".khaledsecondActivity"
-            android:exported="false" />
-        <activity
             android:name=".select_service_Activity"
             android:exported="false" />
         <activity
@@ -117,9 +105,6 @@
             android:exported="false" />
         <activity
             android:name=".Verification_code_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".amal1Activity"
             android:exported="false" />
         <activity
             android:name=".Signup_Activity"
