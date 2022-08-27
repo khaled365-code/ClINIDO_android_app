@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Amclinics"
         tools:targetApi="31">
         <activity
-            android:name=".logoActivity"
+            android:name=".doctor.RecycleViewActivity"
             android:exported="false" />
         <activity
             android:name=".Recyclerview_Activity"
@@ -113,7 +113,7 @@
             android:name=".Signup_Activity"
             android:exported="false" />
         <activity
-            android:name=".doctor.RecycleViewActivity"
+            android:name=".logoActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
