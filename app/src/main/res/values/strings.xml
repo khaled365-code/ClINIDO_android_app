@@ -21,6 +21,8 @@
     <string name="aa">Enter the code sent:</string>
     <string name="qq">continue</string>
     <string name="appointment">Book an appointment in Clinic</string>
+    <string name="calling">Book a call with a doctor</string>
+    <string name="visiting">Book a home visit</string>
 
     <string name="money">Do you want to pay cash or visa?</string>
     <string name="cash">Cash</string>

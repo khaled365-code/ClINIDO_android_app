@@ -43,6 +43,7 @@
 
 
     <LinearLayout
+        android:id="@+id/selectappointment_choose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -78,11 +79,12 @@
             android:src="@drawable/calling" />
 
         <TextView
+            android:id="@+id/selectcalls_choose"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="15dp"
-            android:text="@string/appointment"
+            android:text="@string/calling"
             android:textColor="#DA000000"
             android:textSize="20sp" />
 
@@ -102,11 +104,12 @@
             android:src="@drawable/home" />
 
         <TextView
+            android:id="@+id/selectvisit_choose"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="15dp"
-            android:text="@string/appointment"
+            android:text="@string/visiting"
             android:textColor="#DA000000"
             android:textSize="20sp" />
 
@@ -125,6 +128,7 @@
             android:src="@drawable/book" />
 
         <TextView
+            android:id="@+id/selectreading_choose"
             android:layout_width="263dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
