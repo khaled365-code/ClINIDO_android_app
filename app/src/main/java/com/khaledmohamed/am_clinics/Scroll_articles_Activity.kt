@@ -13,6 +13,7 @@ class Scroll_articles_Activity : AppCompatActivity() {
     private lateinit var textView5: TextView
     private lateinit var textView6: TextView
     private lateinit var textView7: TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_scroll_articles)

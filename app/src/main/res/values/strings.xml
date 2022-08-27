@@ -82,6 +82,9 @@
     <string name="patient_num">Patient Number </string>
     <string name="patient_address">Address:</string>
     <string name="text_tv">please tell us about your feedback</string>
+    <string name="doctor_specialization">specialization</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="fee">Fees</string>
 
 
 </resources>
