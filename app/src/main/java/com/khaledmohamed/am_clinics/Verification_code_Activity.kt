@@ -19,6 +19,7 @@ class Verification_code_Activity : AppCompatActivity() {
                var intent = Intent(this, select_service_Activity::class.java)
                Toast.makeText(this, "correct code", Toast.LENGTH_LONG).show()
                startActivity(intent)
+               finish()
 
            }
             else

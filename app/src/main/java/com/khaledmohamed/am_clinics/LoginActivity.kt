@@ -18,9 +18,7 @@ class LoginActivity : AppCompatActivity() {
          if(!binding.edtUsername.text.isNullOrEmpty() && !binding.edtPassword.text.isNullOrEmpty())
          {
              var intent = Intent(this, select_service_Activity::class.java)
-             intent.putExtra("username",binding.edtUsername.text.toString())
              startActivity(intent)
-             Toast.makeText(this, "you logged successfully", Toast.LENGTH_LONG).show()
              finish()
 
          }else
