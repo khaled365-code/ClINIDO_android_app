@@ -26,6 +26,7 @@
 
 
     <LinearLayout
+        android:id="@+id/doctorvisit_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -51,6 +52,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/nursevisit_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -60,7 +62,7 @@
         <ImageView
             android:layout_width="84dp"
             android:layout_height="57dp"
-            android:src="@drawable/nurse"/>
+            android:src="@drawable/nurse" />
 
         <TextView
             android:layout_width="wrap_content"

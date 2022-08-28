@@ -6,20 +6,19 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 
-class SpecialityActivity : AppCompatActivity() {
+class speciality_call : AppCompatActivity() {
 
     lateinit var searchView: SearchView
     lateinit var listView: ListView
     lateinit var list: ArrayList<String>
     lateinit var adapter: ArrayAdapter<*>
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_speciality)
+        setContentView(R.layout.activity_speciality_call)
 
         title = "KotlinApp"
         searchView = findViewById(R.id.searchView)
-        listView =findViewById(R.id.speciality1_listview)
+        listView = findViewById(R.id.speciality1_listview)
         list = ArrayList()
         list.add("   Audiology")
         list.add("   Cardiology and thoracic surgery")
@@ -37,13 +36,13 @@ class SpecialityActivity : AppCompatActivity() {
 
         adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list)
         listView.adapter = adapter
-        listView.onItemClickListener=object: AdapterView.OnItemClickListener{
-            override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                var intent:Intent=Intent(this@SpecialityActivity,City_Activity::class.java)
-                startActivity(intent)
+        listView.onItemClickListener=object: AdapterView.OnItemClickListener {
+            override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long)
+            {
+                //var intent: Intent = Intent(this@speciality_call,City_Activity::class.java)
+                //startActivity(intent)
 
             }
-
 
         }
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
@@ -51,7 +50,7 @@ class SpecialityActivity : AppCompatActivity() {
                 if (list.contains(query)) {
                     adapter.filter.filter(query)
                 } else {
-                    Toast.makeText(this@SpecialityActivity, "No Match found", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this@speciality_call, "No Match found", Toast.LENGTH_LONG).show()
                 }
                 return false
             }
@@ -60,6 +59,5 @@ class SpecialityActivity : AppCompatActivity() {
                 return false
             }
         })
-
     }
 }

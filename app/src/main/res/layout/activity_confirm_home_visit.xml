@@ -66,11 +66,12 @@
             android:textStyle="italic" />
 
         <EditText
+            android:id="@+id/pname_confirmvisitid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="1dp"
             android:layout_marginEnd="5dp"
-            android:inputType="time" />
+            android:inputType="text|time" />
 
     </LinearLayout>
 
@@ -90,12 +91,13 @@
             android:textStyle="italic" />
 
         <EditText
+            android:id="@+id/pnumber_confirmvisitid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="1dp"
             android:layout_marginTop="1dp"
             android:layout_marginEnd="5dp"
-            android:inputType="time" />
+            android:inputType="number" />
 
     </LinearLayout>
 
@@ -141,6 +143,7 @@
             android:textSize="24sp" />
 
         <EditText
+            android:id="@+id/paddress_confirmvisitid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -150,6 +153,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/confirmhomevisit_btn"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"

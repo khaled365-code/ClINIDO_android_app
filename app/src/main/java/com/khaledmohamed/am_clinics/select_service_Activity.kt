@@ -26,14 +26,14 @@ class select_service_Activity : AppCompatActivity() {
 
         binding.selectcallsChoose.setOnClickListener {
 
-            var intent=Intent(this,SpecialityActivity::class.java)
+            var intent=Intent(this,speciality_call::class.java)
             startActivity(intent)
             Toast.makeText(this,"Please select an speciality ",Toast.LENGTH_LONG).show()
         }
 
         binding.selectvisitChoose.setOnClickListener {
 
-            var intent=Intent(this,Doctor__or_nurse_Activity::class.java)
+            var intent=Intent(this,city2_activity::class.java)
             startActivity(intent)
             Toast.makeText(this,"Please choose doctor or nurse ! ",Toast.LENGTH_LONG).show()
 

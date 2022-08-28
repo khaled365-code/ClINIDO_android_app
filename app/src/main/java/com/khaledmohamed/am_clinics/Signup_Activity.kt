@@ -17,13 +17,14 @@ class Signup_Activity : AppCompatActivity() {
             if(!binding.regfirstName.text.isNullOrEmpty()&&
                 !binding.regphoneNum.text.isNullOrEmpty()
                 &&!binding.regsettPass.text.isNullOrEmpty()
-                &&!binding.regconfirmPass.text.isNullOrEmpty())
+                &&!binding.regconfirmPass.text.isNullOrEmpty()
+                &&binding.regphoneNum.text.toString().length ==11)
             {
                 if(binding.regsettPass.text.toString().equals(binding.regconfirmPass.text.toString()))
                 {
                     var intent = Intent(this, Verification_code_Activity::class.java)
                     startActivity(intent)
-                    Toast.makeText(this, "please enter the code sent to your mobile", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "please enter the code sent to your mobile to verify your number", Toast.LENGTH_LONG).show()
 
                 }
                 else
@@ -35,7 +36,7 @@ class Signup_Activity : AppCompatActivity() {
             else
             {
 
-                Toast.makeText(this, "You should fill all fields", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "You should fill all fields and be sure that mobile number is correct", Toast.LENGTH_LONG).show()
 
             }
         }

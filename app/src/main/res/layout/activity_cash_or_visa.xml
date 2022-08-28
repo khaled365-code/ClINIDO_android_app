@@ -18,6 +18,7 @@
         android:textStyle="bold" />
 
     <LinearLayout
+        android:id="@+id/visa_payment"
         android:layout_width="405dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -70,6 +71,7 @@
 
 
     <LinearLayout
+        android:id="@+id/cash_payment"
         android:layout_width="405dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"

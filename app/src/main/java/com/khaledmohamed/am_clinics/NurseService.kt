@@ -1,10 +1,9 @@
 package com.khaledmohamed.am_clinics
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.ListView
-import android.widget.SearchView
-import android.widget.Toast
+import android.view.View
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
 class NurseService : AppCompatActivity() {
@@ -17,7 +16,7 @@ class NurseService : AppCompatActivity() {
         setContentView(R.layout.activity_nurse_service)
         title = "Nurse service"
         searchView = findViewById(R.id.searchView)
-        listView = findViewById(R.id.listView)
+        listView = findViewById(R.id.speciality1_listview)
         list = ArrayList()
         list.add("   Bed bath")
         list.add("   Bed making")
@@ -38,6 +37,14 @@ class NurseService : AppCompatActivity() {
 
         adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list)
         listView.adapter = adapter
+        listView.onItemClickListener=object: AdapterView.OnItemClickListener{
+            override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+                var intent: Intent =
+                    Intent(this@NurseService, Confirm_home_visit_Activity::class.java)
+                startActivity(intent)
+            }
+
+            }
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
                 if (list.contains(query)) {

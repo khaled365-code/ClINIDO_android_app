@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/hello-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2465" />
+        <entry key="..\:/hello-master/app/src/main/res/drawable-v24/search_view.xml" value="0.214" />
+        <entry key="..\:/hello-master/app/src/main/res/drawable-v24/search_view2.xml" value="0.214" />
         <entry key="..\:/hello-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2465" />
         <entry key="..\:/hello-master/app/src/main/res/drawable/searchview_background.xml" value="0.2465" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_article1.xml" value="0.25407608695652173" />
@@ -16,6 +18,7 @@
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_atallahsecond.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_cash_or_visa.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_city.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_city2.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_code_verification.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_confirm_home_visit.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_confirm_visa_inf.xml" value="0.25416666666666665" />
@@ -45,8 +48,10 @@
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_select_service2.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_speciality.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/activity_speciality_call.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_verification.xml" value="0.2296195652173913" />
         <entry key="..\:/hello-master/app/src/main/res/layout/activity_visa2.xml" value="0.25416666666666665" />
+        <entry key="..\:/hello-master/app/src/main/res/layout/doctor_appointment_details.xml" value="0.25416666666666665" />
         <entry key="..\:/hello-master/app/src/main/res/layout/item_doc.xml" value="0.253125" />
         <entry key="..\:/hello-master/app/src/main/res/layout/item_recycler.xml" value="0.25416666666666665" />
       </map>

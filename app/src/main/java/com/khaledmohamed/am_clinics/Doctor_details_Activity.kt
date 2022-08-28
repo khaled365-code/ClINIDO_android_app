@@ -6,15 +6,13 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 
-class Recycler_details : AppCompatActivity() {
+class Doctor_details_Activity : AppCompatActivity() {
 
     lateinit var baymoney_btn: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_recycler_details)
-
+        setContentView(R.layout.doctor_appointment_details)
         baymoney_btn=findViewById(R.id.baymoney_btn)
-
         baymoney_btn.setOnClickListener{
 
             var intent= Intent(this,Cash_or_visa_Activity::class.java)
