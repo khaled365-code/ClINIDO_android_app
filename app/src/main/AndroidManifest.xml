@@ -14,25 +14,22 @@
         android:theme="@style/Theme.Amclinics"
         tools:targetApi="31">
         <activity
+            android:name=".Customlistcall_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customlist_Activity"
+            android:exported="false" />
+        <activity
             android:name=".city2_activity"
             android:exported="false" />
         <activity
             android:name=".speciality_call"
             android:exported="false" />
         <activity
-            android:name=".doctor.RecycleViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Recyclerview_Activity"
-            android:exported="false" />
-        <activity
             android:name=".DoctorService"
             android:exported="false" />
         <activity
             android:name=".NurseService"
-            android:exported="false" />
-        <activity
-            android:name=".SelectService"
             android:exported="false" />
         <activity
             android:name=".Article6_Activity"
@@ -95,7 +92,7 @@
             android:name=".Exit_Activity"
             android:exported="false" />
         <activity
-            android:name=".Doctor_details_Activity"
+            android:name=".Doctordetails_Activity"
             android:exported="false" />
         <activity
             android:name=".select_service_Activity"

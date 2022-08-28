@@ -18,17 +18,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#BA8C7D"
-                android:text="HAn introduction to IBS and indigestion"
+                android:text="An introduction to IBS and indigestion"
                 android:textColor="#DA4C1868"
-                android:textSize="34sp"
+                android:textSize="23sp"
                 android:textStyle="bold|italic" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="If you suffer from IBS you will be at greater risk of experiencing indigestion and other symptoms associated with the condition, such as acid reflux.  Periodic bouts of indigestion, especially after a few over-indulging meals, is normal. However, when symptoms start occurring on a more frequent basis, we should be looking for a cause. One cause of indigestion to consider is IBS."
-                android:textColor="@color/black"
-                android:textSize="24sp"
+                android:textColor="#808080"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -37,15 +38,13 @@
                 android:background="#BA8C7D"
                 android:text="Why does IBS cause indigestion?"
                 android:textColor="#DA4C1868"
-                android:textSize="34sp"
+                android:textSize="23sp"
                 android:textStyle="bold|italic" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"
+                android:layout_marginTop="10dp"
                 android:text="Indigestion basically means ‘bad digestion’ and symptoms arise from the upper end of the digestive tract.
 
 The link between IBS and indigestion is still not clear. Both symptoms share a number symptoms including flatulence, bloating and pain or discomfort. But the common cause in both conditions for these symptoms is still not clearly understood.
@@ -60,7 +59,10 @@ If the first part of the digestive tract isn’t functioning correctly, it will 
 
 Nevertheless, psychological factors cannot be ruled out as there is a strong gut-brain relationship. Stress, anxiety, panic attacks and depression all have links with both IBS and indigestion.
 
-In extreme cases, acid reflux may develop into Gastroesophageal Reflux Disease (GORD or GERD). This is a chronic condition sometimes also known as functional dyspepsia, which requires a visit to your doctor in order to have the diagnosis confirmed."/>
+In extreme cases, acid reflux may develop into Gastroesophageal Reflux Disease (GORD or GERD). This is a chronic condition sometimes also known as functional dyspepsia, which requires a visit to your doctor in order to have the diagnosis confirmed."
+                android:textColor="#808080"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>

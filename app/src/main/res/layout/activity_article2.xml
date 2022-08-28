@@ -21,24 +21,16 @@
                 android:background="#BA8C7D"
                 android:text="Why Does My Heart Rate Spike When I'm Asleep?"
                 android:textColor="#DA4C1868"
-                android:textSize="34sp"
+                android:textSize="30sp"
                 android:textStyle="bold|italic" />
-
-            <TextView
-                android:layout_width="208dp"
-                android:layout_height="105dp"
-                android:layout_gravity="end"
-                android:text="Brandon R. Peters, MD
-Sleep Physician at Virginia Mason Medical Center and Clinical Affiliate at Stanford University"
-                android:textColor="#DA4C1868"
-                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="Your body undergoes a number of important recuperative processes during sleep, from cell renewal to muscle repair to restorative brain activity.  Changes in breathing, oxygen levels, and heart rate occur as well. These actions are essential to your long-term health. While having a slight fluctuation in heart rate during sleep is normal, it is important to understand the causes of more noticeable spikes in your heart’s number of beats per minute.  ‍  Sleep apnea and heart rate fluctuation  A common cause of a rising heart rate during sleep is a lack of oxygen, which is often brought on by obstructive sleep apnea. This is a condition where a person’s normal breathing frequency is reduced or sometimes flat-out stopped during sleep. The effort to breathe persists, but with the upper airway blocked, oxygen levels drop and carbon dioxide levels rise.  These blockages involve the softening of the muscles around the throat, soft palate, uvula, and tongue base. When the occurrence of these interruptions—referred to as apneas—are in excess (more than five times per hour of sleep), a formal diagnosis of sleep apnea from a doctor may follow.  When breathing ceases during sleep, the brain recognizes that things aren’t right, and wakes the sleeping person up, kickstarting normal breathing functions once again. Not only is a person’s sleep quality compromised because of sleep apnea, they also cause the heart to beat faster than usual  ‍  Heart rate and oxygen levels  Let’s walk through what happens when your breathing stops and your brain is cut off from a sufficient oxygen supply while you sleep.  When an apnea occurs, regular respiratory function ceases. As a result, the heart kicks into high gear, thinking that the reason your body isn’t getting its proper oxygen supply is because it simply isn’t pumping blood fast enough. This is similar to what happens during strenuous exercise, and why the heart beats faster to distribute oxygen throughout your body.  But this time, you’re not exercising—you’re asleep, and you’re not breathing. The heart wants to compensate for this deficit in oxygen and pumps faster and faster, but the blood moving through your circulation is de-oxygenated and isn’t helping you out very much. At around this time, your brain’s panic mode is triggered, and it rouses you out of your sleep. This is accompanied by a burst of cortisol (stress hormone). Your pulse is spiking, you wake up and gasp for breath, and in doing so, take a big gulp of air.  Finally, your body gets the oxygen it needs, and your pulse goes down again. But the damage from this disruptive episode has already been done. Namely, your sleep has been disrupted, even if you don’t remember waking up, and your pulse has been much higher than it needs to be.  Sleep apneas can happen dozens, sometimes hundreds, of times each night. Spikes in your heart rate at that frequency isn’t healthy in the long term—these repeated episodes stress the health of your heart."
-                android:textColor="@color/black"
-                android:textSize="24sp"
+                android:textColor="#808080"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
         </LinearLayout>

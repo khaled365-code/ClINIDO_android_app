@@ -22,14 +22,14 @@
                 android:background="#BA8C7D"
                 android:text="How Exercise Helps the Heart"
                 android:textColor="#DA4C1868"
-                android:textSize="34sp"
+                android:textSize="30sp"
                 android:textStyle="bold|italic" />
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#101010"
-                android:textSize="24sp"
-                android:textStyle="normal|bold"
+                android:layout_marginTop="10dp"
                 android:text="Exercise has many positive effects on heart health. A regular exercise routine can help:
 
 Lower blood pressure
@@ -46,8 +46,10 @@ Works like a beta blocker to slow the heart rate and lower blood pressure
 Increases high-density lipoprotein (HDL) or “good” cholesterol and helps control triglycerides
 A number of studies have also shown that people who exercise regularly are less likely to suffer a sudden heart attack or other life-threatening cardiac event.
 
-While exercise has benefits in and of itself, the best way to prevent heart disease is to combine exercise with a healthy diet. Exercise alone can help with weight loss over a long period of time. But a short-term approach is to reduce the number of calories you take in through diet, while increasing the calories you use through exercise."/>
-
+While exercise has benefits in and of itself, the best way to prevent heart disease is to combine exercise with a healthy diet. Exercise alone can help with weight loss over a long period of time. But a short-term approach is to reduce the number of calories you take in through diet, while increasing the calories you use through exercise."
+                android:textColor="#808080"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -56,38 +58,42 @@ While exercise has benefits in and of itself, the best way to prevent heart dise
                 android:background="#BA8C7D"
                 android:text="Ideal exercise for the heart"
                 android:textColor="#DA4C1868"
-                android:textSize="34sp"
+                android:textSize="30sp"
                 android:textStyle="bold|italic" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#101010"
-                android:textSize="24sp"
-                android:textStyle="normal|bold"
+                android:layout_marginTop="10dp"
                 android:text="The best exercise has a positive effect on the heart and improves the skeletmuscular system.
 
-The American Heart Association and the American College of Sports Medicine both recommend combining aerobic exercise (jogging, swimming, biking) with resistance training (moderate weightlifting). Together, these two categories of exercise produce the greatest benefit for preventing and managing heart disease."/>
+The American Heart Association and the American College of Sports Medicine both recommend combining aerobic exercise (jogging, swimming, biking) with resistance training (moderate weightlifting). Together, these two categories of exercise produce the greatest benefit for preventing and managing heart disease."
+                android:textColor="#808080"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
 
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="69dp"
+                android:layout_height="40dp"
                 android:layout_weight="1"
                 android:background="#BA8C7D"
                 android:text="Exercise and pregnancy"
                 android:textColor="#DA4C1868"
-                android:textSize="34sp"
+                android:textSize="30sp"
                 android:textStyle="bold|italic" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#101010"
-                android:textSize="24sp"
-                android:textStyle="normal|bold"
+                android:layout_marginTop="10dp"
                 android:text="If you’re having a healthy pregnancy, and you exercised regularly before you were pregnant, it’s beneficial to keep up a moderate routine. This regimen can include walking, swimming or bike riding. You’ll continue to receive the same cardiovascular benefits.
 
-If you’re pregnant and everyday exercise has not been part of your life, you should probably stick with a milder exercise. In both instances, it makes sense to seek advice from your physician."/>
+If you’re pregnant and everyday exercise has not been part of your life, you should probably stick with a milder exercise. In both instances, it makes sense to seek advice from your physician."
+                android:textColor="#808080"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
 
         </LinearLayout>
     </ScrollView>

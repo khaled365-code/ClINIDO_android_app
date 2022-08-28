@@ -1,11 +1,10 @@
 package com.khaledmohamed.am_clinics
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.ListView
-import android.widget.SearchView
-import android.widget.Toast
+import android.view.View
+import android.widget.*
 
 class City_Activity : AppCompatActivity() {
     lateinit var searchView: SearchView
@@ -39,6 +38,15 @@ class City_Activity : AppCompatActivity() {
 
         adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list)
         listView.adapter = adapter
+        listView.onItemClickListener=object: AdapterView.OnItemClickListener{
+            override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+                var intent: Intent = Intent(this@City_Activity,Customlist_Activity::class.java)
+                startActivity(intent)
+
+            }
+
+
+        }
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
                 if (list.contains(query)) {

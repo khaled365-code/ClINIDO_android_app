@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Doctor_details_Activity">
+    tools:context=".Doctordetails_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -125,7 +125,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/baymoney_btn"
+        android:id="@+id/payappointmentmoney_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"

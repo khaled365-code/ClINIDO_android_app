@@ -9,14 +9,16 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="69dp"
+                android:layout_height="61dp"
                 android:layout_weight="1"
                 android:background="#BA8C7D"
                 android:text="Telesurgery"
@@ -27,33 +29,33 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#101010"
-                android:textSize="24sp"
+                android:layout_marginTop="10dp"
                 android:text="Telesurgery has shown vast potential in delivering real-time surgical health services specifically to remote locations. These services can be accessed with high quality and accuracy over the wireless communication channel. It provides society with improved precision and accuracy in diagnostic procedures. Various frameworks have been proposed to provide secure, scalable, and interoperable services by using smart contracts. A framework [36] with a secure healthcare management system that removes the reliance on intermediators to create trust between experts and healthcare organizations has been proposed recently.
 
 Similarly, another recent work [37] that mitigates the security, privacy, latency, and Blockchain storage cost issues is a framework that has helped to limit its applicability to surgical procedures around the world shortly. The framework AaYusH (Ethereum smart contract and interplanetary file system (IPFS) based Telesurgery system) has been resolved through security and privacy issues through smart electronic contracts, whereas storage cost issues with the IPFS protocol. In addition to the above, a Blockchain-based telesurgery intelligent system using 6G-enabled tactile internet system [38] has also shown huge potential to deliver remotely high-quality and reliable real-time and intelligent ultraresponsive healthcare services with high quality and reliability."
+                android:textColor="#808080"
+                android:textSize="20sp"
                 android:textStyle="normal|bold" />
+
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="69dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="#BA8C7D"
                 android:text="Remote telesurgery and telementoring"
                 android:textColor="#DA4C1868"
-                android:textSize="34sp"
+                android:textSize="23sp"
                 android:textStyle="bold|italic" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="The possibility for using master–slave telesurgery systems to perform procedures in which the surgeon and patient are separated by very long distances has long been recognized [253,254]. Commonly considered applications include space exploration, military combat care, and provision of care in sparsely populated areas. A number of research groups have developed experimental systems over the years (e.g., Refs. [32,255–260]). A major milestone was achieved by Marescaux et al. in 2001 with successful performance of a transatlantic laparoscopic cholecystectomy [261]. Subsequent work has included efforts by Anvari et al. to develop a practical system for deployment in Canada [262,263].  There has also been significant interest in using telesurgical technology to provide remote (or on-site) mentoring, in which an expert surgeon advises a less experienced surgeon in carrying out a procedure (e.g., Refs. [264–266]). Although similar in some ways to more “conventional” telesurgery, this form of telementoring can introduce additional challenges. In particular, protocols may be needed to enable the expert and “trainee” surgeon to trade off control of a surgical robot or to otherwise work cooperatively during completion of the case."
-                android:textColor="#101010"
-                android:textSize="24sp"
+                android:textColor="#808080"
+                android:textSize="20sp"
                 android:textStyle="normal|bold" />
-
-
-
 
 
         </LinearLayout>
