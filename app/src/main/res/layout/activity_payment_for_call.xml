@@ -134,7 +134,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginTop="40dp"
-        android:hint="Type your promo code..."
+        android:hint="Type your code..."
         android:inputType="number" />
 
 
