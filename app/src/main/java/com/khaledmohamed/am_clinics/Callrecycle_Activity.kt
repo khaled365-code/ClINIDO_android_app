@@ -7,12 +7,12 @@ import android.widget.ListView
 import android.widget.Toast
 import com.khaledmohamed.am_clinics.listview.MyListAdapter
 
-class Customlistcall_Activity : AppCompatActivity() {
+class Callrecycle_Activity : AppCompatActivity() {
 
     lateinit var listView : ListView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_customlistcall)
+        setContentView(R.layout.callrecycler_view)
         listView = findViewById(R.id.lisview)
         var list = mutableListOf<Model>()
 

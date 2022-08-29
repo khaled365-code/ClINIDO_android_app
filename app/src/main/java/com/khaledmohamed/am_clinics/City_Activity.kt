@@ -40,7 +40,7 @@ class City_Activity : AppCompatActivity() {
         listView.adapter = adapter
         listView.onItemClickListener=object: AdapterView.OnItemClickListener{
             override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                var intent: Intent = Intent(this@City_Activity,Customlist_Activity::class.java)
+                var intent: Intent = Intent(this@City_Activity,Doctorrecycle_Acitivity::class.java)
                 startActivity(intent)
 
             }

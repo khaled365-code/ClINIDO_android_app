@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#008C9EFF"
     android:backgroundTint="#008C9EFF"
-    tools:context=".Customlist_Activity">
+    tools:context=".Doctorrecycle_Acitivity">
 
     <ListView
         android:id="@+id/lisview"

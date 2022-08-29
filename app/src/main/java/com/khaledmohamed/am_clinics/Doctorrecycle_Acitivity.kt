@@ -7,13 +7,13 @@ import android.widget.ListView
 import android.widget.Toast
 import com.khaledmohamed.am_clinics.listview.MyListAdapter
 
-class Customlist_Activity : AppCompatActivity() {
+class Doctorrecycle_Acitivity : AppCompatActivity() {
 
     lateinit var listView : ListView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_customlist)
+        setContentView(R.layout.doctorrecycler_view)
         listView = findViewById(R.id.lisview)
         var list = mutableListOf<Model>()
 

@@ -39,7 +39,7 @@ class speciality_call : AppCompatActivity() {
         listView.onItemClickListener=object: AdapterView.OnItemClickListener {
             override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long)
             {
-               var intent: Intent = Intent(this@speciality_call,Customlistcall_Activity::class.java)
+               var intent: Intent = Intent(this@speciality_call,Callrecycle_Activity::class.java)
                 startActivity(intent)
 
             }
